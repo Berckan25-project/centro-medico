@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 const images = [
-  { src: '/images/consulta-medica.jpg', alt: 'Consulta médica' },
+  { src: '/public/images/consulta-medica.jpg', alt: 'Consulta médica' },
   { src: '/images/ecografia.jpg', alt: 'Equipo de laboratorio' },
   { src: '/images/equipo-de-laboratorio.jpg', alt: 'Sala de espera' },
   { src: '/images/sala-de-espera.jpg', alt: 'Ecografía' },
