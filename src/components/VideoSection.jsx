@@ -1,5 +1,5 @@
 export default function VideoSection() {
-  const youtubeId = 'dQw4w9WgXcQ' // reemplaza por tu ID
+  const youtubeId = 'Sobt0wGpHpE' // reemplaza por tu ID
   const localVideo = '/videos/centro-medico.mp4' // opcional
 
   return (
