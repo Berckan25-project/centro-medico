@@ -1,6 +1,6 @@
 export default function VideoSection() {
-  const youtubeId = 'Sobt0wGpHpE' // reemplaza por tu ID
-  const localVideo = '/videos/centro-medico.mp4' // opcional
+  const youtubeId = 'Sobt0wGpHpE' 
+  const localVideo = '/videos/centro-medico.mp4' 
 
   return (
     <section className="section">

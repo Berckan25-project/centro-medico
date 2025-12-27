@@ -9,7 +9,7 @@ import Footer from './components/Footer.jsx'
 import Toast from './components/Toast.jsx'
 
 export default function App() {
-  // Reemplaza con tu enlace de Google Forms
+  
   const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSez9vkFfdbWBGGGoRYSyiR1Q4OrN4ara6BXryudoDoUrv_QpQ/viewform?usp=dialog'
 
   const [view, setView] = useState('home')
@@ -28,8 +28,7 @@ export default function App() {
         )}
         {view === 'servicios' && <Services />}
         {view === 'citas' && (
-          // Si aún quieres mantener el formulario interno en la ruta 'citas',
-          // lo dejamos disponible, pero el botón principal abre Google Forms.
+          
           <AppointmentForm onSuccess={(m) => setToast(m)} />
         )}
       </main>

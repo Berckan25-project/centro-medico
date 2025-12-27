@@ -39,7 +39,7 @@ export default function AppointmentForm({ onSuccess }) {
 
     setLoading(true)
     try {
-      // Aquí puedes conectar con tu backend si lo deseas.
+      
       await new Promise(r => setTimeout(r, 900))
       setForm({ dni:'', nombres:'', correo:'', especialidad:specialties[0], fecha:'', hora:'', notas:'' })
       onSuccess && onSuccess('Cita registrada correctamente. Revisa tu correo.')
